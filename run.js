@@ -20,4 +20,4 @@ if (fs.existsSync(envPath)) {
 }
 
 const config = require('./jira.config.js');
-console.log(config);
+console.log(JSON.stringify(config));

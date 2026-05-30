@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node run.js"
+    "start": "node run.js",
+    "test": "jest",
+    "test:integration": "jest __tests__/integration",
+    "test:system": "jest __tests__/system"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }

@@ -1,0 +1,8 @@
+Jira test run summary
+=====================
+Command: npm run test:auto
+Result: 1 failed, 1 passed suite
+Details:
+- jira.config.test.js: passed (2/2 tests)
+- integration/run.integration.test.js: failed (1/1 test)
+Failure: expected result.status to be 0 but received 1
